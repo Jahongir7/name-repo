@@ -6,12 +6,6 @@ import Result from "./components/result";
 function App() {
   const [value, setValue] = useState("");
   const [search, setSearch] = useState(false);
-  useCallback(
-    (e) => {
-      setSearch(e);
-    },
-    [search]
-  );
   return (
     <div className="App">
       <Search value={value} setValue={setValue} setSearch={setSearch} />
