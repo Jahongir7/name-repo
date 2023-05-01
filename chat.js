@@ -22,7 +22,7 @@ function App() {
 
   const sendMessage = (message) => {
     const url = "https://api.openai.com/v1/chat/completions";
-    const API_KEY = "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";
+    const API_KEY = "Nagap";
     const headers = {
       "Content-type": "application/json",
       Authorization: `Bearer ${API_KEY}`,
